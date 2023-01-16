@@ -1,0 +1,632 @@
+@media screen and (min-width: 120px) and (max-width: 480px){
+    /*Layout Monitores pequenos*/
+    .nav{
+        height: 50px;
+    }
+    .nav_1 img{
+        width: 80px;
+        height: 40px;
+    }
+    .nav_1 input{
+        height: 15px;
+        font-size: 10px;
+        border: none;
+        width: 150px;
+    }
+    .user_icon a img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .title{
+        height: 250px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        margin-top: -10px;
+        font-size: 8px;
+    }
+
+    .sobre{
+        margin-top: 10px;
+    }
+    .sobre .history_bg{
+        padding: 8px 0;
+    }
+    .sobre .history_bg h2{
+        font-size: 15px;
+    }
+    .sobre p{
+        font-size: 9px;
+        text-align: center;
+    }
+    .apresentation_subtitle{
+        margin-top: 20px;
+    }
+    .apresentation .apresentation_subtitle h2{
+        font-size: 15px;
+        margin-top: -20px;
+        padding-top: 10px;
+    }
+    .apresentation .apresentation_subtitle h5{
+        margin-top: -13px;
+        font-size: 9px;
+        margin-bottom: -20px;
+    }
+
+    .marcas h2{
+        font-size: 15px;
+    }
+    .marcas .img_marcas img{
+        width: 130px;
+        height: 100px;
+        border-radius: 8px;
+    }
+
+    .galery_img{
+        margin-top: 40px;
+    }
+    .galery_img h2{
+        font-size: 15px;
+    }
+    .galery_img .img_cars{
+        height: 205px;
+    }
+    .galery_img .img_cars .cars .car_img img{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px 10px 0 0;
+    }
+    .galery_img .img_cars .cars .desc_img{
+        border-radius: 0 0 10px 10px;
+    }
+    .galery_img .img_cars .cars .desc_img p{
+        font-size: 10px;
+    }
+
+    .link_more_images #link_images{
+        padding: 5px 50px;
+        font-size: 11px;
+    }
+
+    .footer .logo_empresa img{
+        width: 120px;
+        height: 50px;
+        padding-top: 20px;
+    }  
+    .footer .frame p{
+        font-size: 10px;
+    } 
+    .footer .frame iframe{
+        height: 300px;
+    }
+    .footer .redes .redes_sociais a{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .footer .redes .redes_sociais a img{
+        width: 15px;
+        height: 15px;
+    }
+    .footer .redes_exp p{
+        font-size: 10px;
+    }
+    .compl{
+        font-size: 12px;
+        border-radius: 20px 20px 0 0;
+    }
+
+   
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .nav{
+        height: 50px;
+    }
+    .nav_1 img{
+        width: 80px;
+        height: 40px;
+    }
+    .nav_1 input{
+        height: 15px;
+        font-size: 10px;
+        border: none;
+        width: 300px;
+    }
+    .user_icon a img{
+        height: 20px;
+        width: 20px;
+    }
+    .title{
+        height: 350px;
+    }
+    .title h1{
+        font-size: 35px;
+    }
+    .title h2{
+        margin-top: -25px;
+        font-size: 10px;
+    }
+
+
+    .sobre{
+        margin-top: 10px;
+    }
+    .sobre .history_bg{
+        padding: 8px 0;
+    }
+    .sobre .history_bg h2{
+        font-size: 15px;
+    }
+    .sobre p{
+        font-size: 9px;
+        text-align: center;
+    }
+    .apresentation_subtitle{
+        margin-top: 20px;
+    }
+    .apresentation .apresentation_subtitle h2{
+        font-size: 15px;
+        margin-top: -20px;
+        padding-top: 10px;
+    }
+    .apresentation .apresentation_subtitle h5{
+        margin-top: -13px;
+        font-size: 9px;
+        margin-bottom: -20px;
+    }
+
+    .marcas h2{
+        font-size: 15px;
+    }
+    .marcas .img_marcas img{
+        width: 150px;
+        height: 100px;
+        border-radius: 8px;
+    }
+
+    .galery_img{
+        margin-top: 40px;
+    }
+    .galery_img h2{
+        font-size: 15px;
+    }
+    .galery_img .img_cars{
+        height: 205px;
+    }
+    .galery_img .img_cars .cars .car_img img{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px 10px 0 0;
+    }
+    .galery_img .img_cars .cars .desc_img{
+        border-radius: 0 0 10px 10px;
+    }
+    .galery_img .img_cars .cars .desc_img p{
+        font-size: 10px;
+    }
+
+    .link_more_images #link_images{
+        padding: 5px 50px;
+        font-size: 11px;
+    }
+
+    .footer .logo_empresa img{
+        width: 120px;
+        height: 50px;
+        padding-top: 20px;
+    }  
+    .footer .frame p{
+        font-size: 10px;
+    } 
+    .footer .frame iframe{
+        height: 300px;
+    }
+    .footer .redes .redes_sociais a{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .footer .redes .redes_sociais a img{
+        width: 15px;
+        height: 15px;
+    }
+    .footer .redes_exp p{
+        font-size: 10px;
+    }
+    .compl{
+        font-size: 12px;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 769px){
+    .nav{
+        height: 50px;
+    }
+    .nav_1 img{
+        width: 80px;
+        height: 40px;
+    }
+    .nav_1 input{
+        height: 15px;
+        font-size: 10px;
+        border: none;
+        width: 400px;
+    }
+    .user_icon a img{
+        height: 20px;
+        width: 20px;
+    }
+    .title{
+        height: 350px;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .title h2{
+        margin-top: -25px;
+        font-size: 13px;
+    }
+
+    .sobre{
+        margin-top: 10px;
+    }
+    .sobre .history_bg{
+        padding: 8px 0;
+    }
+    .sobre .history_bg h2{
+        font-size: 15px;
+    }
+    .sobre p{
+        font-size: 9px;
+        text-align: center;
+    }
+    .apresentation_subtitle{
+        margin-top: 20px;
+    }
+    .apresentation .apresentation_subtitle h2{
+        font-size: 15px;
+        margin-top: -20px;
+        padding-top: 10px;
+    }
+    .apresentation .apresentation_subtitle h5{
+        margin-top: -13px;
+        font-size: 9px;
+        margin-bottom: -20px;
+    }
+
+    .marcas h2{
+        font-size: 15px;
+    }
+    .marcas .img_marcas img{
+        width: 130px;
+        height: 100px;
+        border-radius: 8px;
+    }
+
+    .galery_img{
+        margin-top: 40px;
+    }
+    .galery_img h2{
+        font-size: 15px;
+    }
+    .galery_img .img_cars{
+        height: 205px;
+    }
+    .galery_img .img_cars .cars .car_img img{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px 10px 0 0;
+    }
+    .galery_img .img_cars .cars .desc_img{
+        border-radius: 0 0 10px 10px;
+    }
+    .galery_img .img_cars .cars .desc_img p{
+        font-size: 10px;
+    }
+
+    .link_more_images #link_images{
+        padding: 5px 50px;
+        font-size: 11px;
+    }
+
+    .footer .logo_empresa img{
+        width: 120px;
+        height: 50px;
+        padding-top: 20px;
+    }  
+    .footer .frame p{
+        font-size: 10px;
+    } 
+    .footer .frame iframe{
+        height: 300px;
+    }
+    .footer .redes .redes_sociais a{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .footer .redes .redes_sociais a img{
+        width: 15px;
+        height: 15px;
+    }
+    .footer .redes_exp p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .compl{
+        font-size: 12px;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (min-height: 1600px){
+    /*Layout para Celulares*/
+    .nav{
+        height: 150px;
+    }
+    .nav_1 img{
+        width: 190px;
+        height: 100px;
+    }
+    .nav_1 input{
+        height: 60px;
+        font-size: 40px;
+        border: none;
+        width: 550px;
+    }
+    .user_icon a img{
+        height: 70px;
+        width: 70px;
+    }
+    .title{
+        height: 580px;
+    }
+    .title h1{
+        font-size: 80px;
+    }
+    .title h2{
+        margin-top: -30px;
+        font-size: 30px;
+    }
+
+
+
+    .sobre{
+        margin-top: 50px;
+    }
+    .sobre .history_bg{
+        padding: 40px 0;
+    }
+    .sobre .history_bg h2{
+        font-size: 15px;
+    }
+    .sobre p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .apresentation_subtitle{
+        margin-top: 60px;
+    }
+    .apresentation .apresentation_subtitle h2{
+        font-size: 15px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .apresentation .apresentation_subtitle h5{
+        margin-top: -13px;
+        font-size: 9px;
+        margin-bottom: 0px;
+    }
+
+    .marcas h2{
+        font-size: 35px;
+    }
+    .marcas .img_marcas img{
+        width: 400px;
+        height: 300px;
+        border-radius: 8px;
+    }
+
+    .galery_img{
+        margin-top: 40px;
+    }
+    .galery_img h2{
+        font-size: 35px;
+    }
+    .galery_img .img_cars{
+        height: 560px;
+    }
+    .galery_img .img_cars .cars .car_img img{
+        width: 600px;
+        height: 400px;
+        border-radius: 20px 20px 0 0;
+    }
+    .galery_img .img_cars .cars .desc_img{
+        border-radius: 0 0 20px 20px;
+    }
+    .galery_img .img_cars .cars .desc_img p{
+        font-size: 30px;
+    }
+
+    .link_more_images #link_images{
+        padding: 10px 100px;
+        font-size: 30px;
+    }
+
+    .footer .logo_empresa img{
+        width: 300px;
+        height: 150px;
+        padding-top: 40px;
+    }  
+    .footer .frame p{
+        font-size: 18px;
+        margin-top: 80px;
+    } 
+    .footer .frame iframe{
+        height: 500px;
+    }
+    .footer .redes .redes_sociais a{
+        font-size: 12px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .footer .redes .redes_sociais a img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .footer .redes_exp{
+        margin-top: 100px;
+    }
+    .footer .redes_exp p{
+        font-size: 12px;
+        line-height: 15px;
+        text-align: justify;
+        padding: 0 50px;
+    
+    }
+    .compl{
+        font-size: 30px;
+        border-radius: 80px 80px 0 0;
+    }
+
+
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .comentarios h2, .comentarios h3{
+        line-height: 0;
+        color: white;
+        text-align: center;
+    }
+    .comentarios h2{
+        font-size: 40px;
+    }
+    .comentarios h3{
+        font-size: 30px;
+    }
+    .comentarios #form_available{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .comentarios #form_available textarea{
+        width: 870px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .comentarios #form_available a{
+        background-color: aquamarine;
+        margin-top: 30px;
+        width: 880px;
+        border-radius: 40px;
+        padding: 20px 0;
+        font-size: 30px;
+        color:black;
+    }
+
+    .div_message{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+    }
+    .message_ok{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .message_ok h1{
+        font-size: 5px;
+    }
+    .message_ok img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (min-width: 769px) and (min-height: 1976px){
+    .nav{
+        height: 150px;
+    }
+    .nav_1 img{
+        width: 190px;
+        height: 100px;
+    }
+    .nav_1 input{
+        height: 70px;
+        font-size: 40px;
+    }
+    .user_icon a img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    .nav{
+        height: 40px;
+    }
+    .nav_1 img{
+        width: 80px;
+        height: 40px;
+    }
+    .nav_1 input{
+        height: 10px;
+        font-size: 10px;
+    }
+    .user_icon a img{
+        height: 20px;
+        width: 20px;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
