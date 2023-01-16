@@ -1,0 +1,345 @@
+body{
+    margin: 0 auto;
+}
+header{
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+}
+
+/*Estilo da Primeira Navegação:*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+}
+.nav_1{
+    background-color: rgb(110, 109, 109);
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav_1 img{
+    height: 100px;
+    width: 200px;
+    padding: 10px 0 10px 30px;
+}
+.nav_1 input{
+    margin-left: 50px;
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.user_icon{
+    background-color: rgb(110, 109, 109);
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+}
+.user_icon a img{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+}
+
+
+/*Estilização da Capa:*/
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.title{
+    background: linear-gradient(rgba(0,0,0,0.5), 
+              rgba(0,0,0,0.5)), 
+              url("assets/Image_capa/Capa_empresa.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.title h1, .title h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    padding-right: 30px;
+}
+.title h1{
+    font-size: 75px;
+}
+.title h2{
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.sobre{
+    margin-top: 100px;
+    text-align: center;
+}
+.sobre p{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.sobre .history_bg{
+    background-image: url("assets/Images_cars/antigo-luxo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+}
+.sobre .history_bg h2{
+    background-color: rgba(0,0,0,0.7);
+}
+.sobre img{
+    width: 100%;
+    border-bottom: 1px solid rgb(3, 3, 3);
+    padding-bottom: 8px;
+}
+
+.apresentation_subtitle{
+    background-image: url("assets/Images_cars/antigo-luxo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 40px 0;
+    margin-top: 120px;
+}
+.apresentation .apresentation_subtitle h2, .apresentation .apresentation_subtitle h5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.7);
+    font-family:'Times New Roman', Times, serif
+}
+
+.apresentation .apresentation_subtitle h5{
+    margin-top: -22px;
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.marcas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.marcas h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.marcas .img_marcas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.marcas .img_marcas img{
+    width: 400px;
+    height: 300px;
+    border-bottom: 1px solid rgb(110, 109, 109);
+    border-right: 1px solid rgb(110, 109, 109);   
+    margin-top: 50px;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 20px;
+}
+
+.galery_img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+.galery_img h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.galery_img .img_cars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 580px;
+}
+.galery_img .img_cars .cars{
+    display: flex;
+    flex-direction: column;
+}
+.galery_img .img_cars .cars .desc_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3px;
+    margin-right: 15px;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 5px 5px 10px;
+}
+.galery_img .img_cars .cars .desc_img{
+    font-size: 30px;
+    text-align: center;
+}
+.galery_img .img_cars img{
+    width: 700px;
+    height: 450px;
+    margin-right: 15px;
+    border-radius: 25px 25px 0 0;
+}
+
+.link_more_images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link_more_images #link_images{
+    background-color: rgb(27, 171, 255);
+    text-decoration: none;
+    padding: 15px 160px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    border-radius: 30px;
+}
+
+.footer{
+    background-color: rgb(56, 56, 56);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .logo_empresa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer .logo_empresa img{
+    width: 250px;
+    height: 100px;
+    padding-top: 50px;
+}
+.footer .frame p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.footer .redes_sociais{
+    margin-top: 30px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footer .redes_sociais a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    color:rgb(27, 171, 255);
+    font-size: 40px;
+    text-decoration: none;
+}
+.footer .redes_sociais a img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.footer .redes_exp{
+    margin-top: 50px;
+}
+.footer .redes_exp p{
+    color: white;
+    text-align: justify;
+    padding: 10px 30px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.compl{
+    width: 100%;
+    background-color: rgb(27, 171, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 120px 120px 0 0;
+    margin-top: 50px;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.comentarios h2, .comentarios h3{
+    line-height: 0;
+    color: white;
+}
+.comentarios h3{
+    font-size: 15px;
+}
+.comentarios #form_available{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.comentarios #form_available textarea{
+    width: 350px;
+}
+.comentarios #form_available a{
+    background-color: rgb(5, 255, 255);
+    margin-top: 20px;
+    width: 359px;
+    border-radius: 20px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.div_message{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.message_ok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.message_ok h1{
+    font-size: 25px;
+}
+.message_ok img{
+    width: 50px;
+    height: 50px;
+}
